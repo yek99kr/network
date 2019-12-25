@@ -1,0 +1,117 @@
+body{
+	padding:0;
+	margin:0;
+	overflow: hidden;
+/*	background-image: url('carpet.png');*/
+}
+.back{
+	background:url(carpet.png) no-repeat center;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+}
+
+
+.container{
+	position: absolute;
+	height:90%;
+	top:-80vh;
+	left:50%;
+	transform:translate(-50%);
+	z-index: 1;
+	cursor: pointer;
+}
+.drawer img{
+	height: 95vh;
+}
+.key1{
+	position: absolute;
+	display:inline-block;
+	width:20%;
+	top:12%;
+	left:15%;
+	cursor: pointer;
+}
+.key1 img{
+}
+.key1:hover{
+	background-image: url("key1hover.png");
+	background-repeat:no-repeat;
+	cursor: pointer;
+
+
+}
+.key2{
+
+	position: absolute;
+	display:inline-block;
+	width:20%;
+	top:15%;
+	right:18%;
+	cursor: pointer;
+}
+.key2 img{
+}
+.key2:hover{
+	background-image: url("key2hover.png");
+	background-repeat:no-repeat;
+	cursor: pointer;
+}
+.key3{
+	position: absolute;
+	display:inline-block;
+	width:20%;
+	top:20%;
+	left:40%;
+	cursor: pointer;
+}
+.key3 img{
+}
+.key3:hover{
+	background-image: url("key3hover.png");
+	background-repeat:no-repeat;
+	cursor: pointer;
+}
+
+.welcome{
+	position: absolute;
+	top:30%;
+	left:50%;
+	transform:translate(-50%);
+}
+.welcome img{
+	width:95vw;
+}
+
+.menu1{
+	position: absolute;
+	left:1%;
+	bottom: 1%;
+	cursor: pointer;
+}
+.menu1:hover{
+	background-image: url("menu1(2).png");
+	cursor: pointer;
+}
+.menu2{
+	position: absolute;
+	left:50%;
+	bottom: 1%;
+	transform:translate(-50%, 0%);
+	cursor: pointer;
+}
+.menu2:hover{
+	background-image: url("menu2(2).png");
+	cursor: pointer;
+}
+.menu3{
+	position: absolute;
+	right:1%;
+	bottom: 1%;
+	cursor: pointer;
+}
+
+.menu3:hover{
+	background-image: url("menu3(2).png");
+	cursor: pointer;
+}

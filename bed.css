@@ -1,0 +1,162 @@
+body{
+	padding:0;
+	margin:0;
+	overflow: hidden;
+}
+.text{
+	
+	position: absolute;
+	right:-100%;
+	top:0;
+	-webkit-animation: textf 15s infinite; 
+    -webkit-animation-timing-function: linear;
+     pointer-events: none;
+}
+
+.text2{
+	
+	position: absolute;
+	right:-100%;
+	top:0;
+	-webkit-animation: textf 15s infinite; 
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 7.5s;
+     pointer-events: none;
+}
+.text img{
+	height:25vh;
+	min-width:500px;
+}
+.text2 img{
+	height:25vh;
+	min-width:500px;
+}
+@-webkit-keyframes textf {
+  0%  {right:-80%;}
+  100% {right:100%;}
+}
+.back1{
+/*	background:url(bedback.png) no-repeat center;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;*/
+	background:url("fishback.png") no-repeat center;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+
+}
+.back1 img{
+	height: 100vh;
+	width:100vw;
+}
+
+.back2{
+/*	background:url(bedback2.png) no-repeat center;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;*/
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	display: none;
+	
+}
+.back2 img{
+	height: 100vh;
+	width:100vw;
+}
+
+.light1{
+	position: absolute;
+	top:2%;
+	left:2%;
+	cursor: pointer;
+
+}
+.light1 img{
+	width: 33vw;
+	min-width: 300px;
+}
+.light2{
+	position: absolute;
+	top:2%;
+	left:2%;
+	display: none;
+	cursor: pointer;
+
+}
+.light2 img{
+	width: 33vw;
+	min-width: 300px;
+
+}
+
+.bed1{
+	position: absolute;
+	bottom:-4%;
+	right:-7%;
+
+}
+.bed2{
+	position: absolute;
+	bottom:-4%;
+	right:-7%;
+	display: none;
+
+}
+.bed1 img{
+	width: 86vw;
+	min-width: 800px;
+}
+.bed2 img{
+	width: 86vw;
+	min-width: 800px;
+}
+
+.menu{
+	position: absolute;
+	right:0%;
+	bottom:0;
+/*	transform:translate(-50%);*/
+	z-index: 1;
+
+}
+.menu img{
+	min-width:80px;
+}
+
+.menuhome{
+	position:relative;
+	right:10px;
+	cursor: pointer;
+	z-index: 1;
+	
+}
+.menuhome:hover{
+	background-image: url('gem1(2).png')
+}
+
+.menufish{
+	position: relative;
+	right:10px;
+	cursor: pointer;
+	z-index: 1;
+
+}
+.menufish:hover{
+	background-image: url('gem2(2).png')
+}
+
+
+.menubed{
+	position: relative;
+	right:10px;
+	cursor: pointer;
+	z-index: 1;
+	
+}
+.menubed:hover{
+	background-image: url('gem3(2).png')
+}
