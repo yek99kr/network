@@ -77,8 +77,7 @@ window.onload = function(){
 
  $('.back').ripples({
     resolution: 500,
-     perturbance:10,
-    dropRadius:30,
+     perturbance:0.001,
  });
 
  // var fish1X= $('.fish1')[0].getBoundingClientRect().left;
